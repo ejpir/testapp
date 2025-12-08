@@ -12,7 +12,9 @@
     "react": "file:./vendor/react-19.0.1.tgz",
     "react-dom": "file:./vendor/react-dom-19.1.2.tgz"
   },
-  "overrides": {
-    "@next/swc-darwin-arm64": "15.0.0"
+  "optionalDependencies": {
+    "@next/swc-darwin-arm64": "file:./vendor/next-swc-darwin-arm64-15.0.5.tgz",
+    "@next/swc-linux-x64-gnu": "file:./vendor/next-swc-linux-x64-gnu-15.0.5.tgz",
+    "@next/swc-linux-x64-musl": "file:./vendor/next-swc-linux-x64-musl-15.0.5.tgz"
   }
 }
